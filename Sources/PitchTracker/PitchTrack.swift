@@ -23,12 +23,20 @@ public struct PitchTrack: Sendable {
         public let midi: Double
         /// The largest activation, 0…1.
         public let confidence: Double
+
+        public init(time: Double, cents: Double, frequency: Double, midi: Double, confidence: Double) {
+            self.time = time; self.cents = cents; self.frequency = frequency; self.midi = midi; self.confidence = confidence
+        }
     }
 
     public let frames: [Frame]
     public let method: PitchDecoder.Method
     /// The 16 kHz sample count the model saw.
     public let samples: Int
+
+    public init(frames: [Frame], method: PitchDecoder.Method, samples: Int) {
+        self.frames = frames; self.method = method; self.samples = samples
+    }
 
     public var seconds: Double { Double(samples) / Double(CrepeFrontEnd.sampleRate) }
 
