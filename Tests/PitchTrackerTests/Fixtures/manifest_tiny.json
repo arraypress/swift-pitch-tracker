@@ -1,0 +1,16 @@
+{
+ "capacity": "tiny",
+ "batch": 256,
+ "clips": {
+  "steady": {
+   "frames": 201,
+   "seconds": 2.0,
+   "source_rate": 16000
+  },
+  "vocal": {
+   "frames": 762,
+   "seconds": 7.619,
+   "source_rate": 44100
+  }
+ }
+}

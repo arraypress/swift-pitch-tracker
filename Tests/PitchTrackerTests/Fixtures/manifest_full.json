@@ -1,0 +1,41 @@
+{
+ "capacity": "full",
+ "batch": 256,
+ "clips": {
+  "steady": {
+   "frames": 201,
+   "seconds": 2.0,
+   "source_rate": 16000
+  },
+  "vibrato": {
+   "frames": 201,
+   "seconds": 2.0,
+   "source_rate": 16000
+  },
+  "glide": {
+   "frames": 201,
+   "seconds": 2.0,
+   "source_rate": 16000
+  },
+  "steady441": {
+   "frames": 201,
+   "seconds": 2.0,
+   "source_rate": 44100
+  },
+  "bass": {
+   "frames": 1561,
+   "seconds": 15.60975,
+   "source_rate": 44100
+  },
+  "vocal": {
+   "frames": 762,
+   "seconds": 7.619,
+   "source_rate": 44100
+  },
+  "lead": {
+   "frames": 1372,
+   "seconds": 13.71425,
+   "source_rate": 44100
+  }
+ }
+}
